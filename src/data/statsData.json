@@ -1,0 +1,18 @@
+{
+  "summary": {
+    "description": "I track my hours, commutes, and telework vs on-site to stay productive and healthy."
+  },
+  "onsiteVsTelework": {
+    "onsite": 0.72,
+    "telework": 0.28
+  },
+  "commute": [
+    { "method": "Train", "value": 0.5 },
+    { "method": "Bike", "value": 0.3 }
+  ],
+  "hoursOverTime": [
+    { "month": "January", "worked": 140, "expected": 130 },
+    { "month": "February", "worked": 135, "expected": 130 },
+    { "month": "March", "worked": 142, "expected": 135 }
+  ]
+}

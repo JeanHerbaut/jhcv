@@ -1,0 +1,98 @@
+@use '../variables.scss' as *;
+
+// Palette
+$bg-neutral: #FAFAFA;
+$text-dark: #333;
+$accent-teal: #00A8A8;
+$accent-coral: #F08A5D;
+$accent-gold: #FBD148;
+
+/* Updated About Section Styles */
+.about-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center; /* Center content horizontally */
+  align-items: center; /* Center content vertically */
+  padding: 4rem 2rem; /* Adjusted padding for better spacing */
+  background-color: $bg-neutral;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  gap: 2rem;
+
+  .about-section__left-column {
+    flex: 2;
+    min-width: 300px;
+    text-align: center; /* Center text */
+
+    .avatar-placeholder {
+      width: 120px;
+      height: 120px;
+      border-radius: 50%;
+      background-color: $accent-teal;
+      margin: 0 auto 1rem auto; /* Center avatar */
+    }
+
+    h2 {
+      font-size: 2.4rem;
+      margin-bottom: 1rem;
+      color: $accent-teal;
+    }
+
+    p {
+      font-size: 1.2rem;
+      line-height: 1.8;
+      color: $text-dark;
+    }
+  }
+
+  .about-section__right-column {
+    flex: 1;
+    min-width: 250px;
+    background-color: #ffffff;
+    border-radius: 8px;
+    padding: 2rem;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    ul {
+      list-style: none;
+      padding: 0;
+
+      li {
+        display: flex;
+        align-items: center;
+        margin-bottom: 1.5rem;
+
+        .dot {
+          width: 1.2rem;
+          height: 1.2rem;
+          border-radius: 50%;
+          margin-right: 1rem;
+
+          &.teal { background-color: $accent-teal; }
+          &.coral { background-color: $accent-coral; }
+          &.gold { background-color: $accent-gold; }
+        }
+
+        .fact-text {
+          font-size: 1.1rem;
+          color: $text-dark;
+        }
+      }
+    }
+  }
+
+  @media (max-width: 768px) {
+    flex-direction: column;
+    gap: 2rem;
+
+    .about-section__left-column {
+      margin-right: 0;
+    }
+  }
+}
+
+#about .right-column ul li span {
+  display: inline-block;
+  border-radius: 50%; /* Fixed indentation */
+  margin-right: 1rem;
+}

@@ -1,14 +1,20 @@
 import React from 'react';
-import About from './components/About';
+import AboutSection from './components/AboutSection';
 import Experience from './components/Experience';
 import Stats from './components/Stats';
+import Header from './components/Header';
 import './styles.scss'
+import './components/AboutSection.scss';
+import './components/Experience.scss';
+import './components/Stats.scss';
 
 function App() {
   return (
     <div className="main-container">
+      <Header />
       {/* Animated BG shape */}
       <div className="animated-bg-shape"></div>
+      <div className="animated-bg-shape-reversed"></div>
 
       <header className="hero-section">
         <h1>Jean Dupont</h1>
@@ -17,16 +23,10 @@ function App() {
       </header>
 
       <main className="content-wrapper">
-        <About />
+        <AboutSection />
         <Experience />
         <Stats />
       </main>
-
-      <footer className="footer">
-        <h3>Contact</h3>
-        <p>Ready to connect? Drop me a line.</p>
-        <p><strong>Email:</strong> jean.dupont@example.com</p>
-      </footer>
     </div>
   );
 }

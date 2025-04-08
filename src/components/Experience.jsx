@@ -1,4 +1,5 @@
 import React from 'react';
+import './Experience.scss';
 
 function Experience() {
   return (

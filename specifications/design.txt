@@ -1,0 +1,130 @@
+1. Overall Aesthetic
+
+    Style: Modern, clean, slightly minimalist but with a few accent colors or shapes to add personality.
+
+    Layout: A full-width section-based design where each “section” (Intro, About, Experience, Data, Contact) spans nearly the viewport height, with smooth scrolling or anchor links in the nav.
+
+    Color Palette:
+
+        Background: Near-white or a soft neutral (e.g., #FAFAFA) as a base.
+
+        Primary Accent: A muted teal (#00A8A8) or vibrant but not neon color for headings and highlight elements.
+
+        Secondary Accent: A friendly golden or pastel coral (#F08A5D, #FBD148, etc.) for subtle highlights or buttons.
+
+        Dark Text: Standard black (#000) or a very dark gray (#333) for primary text.
+
+    Typography:
+
+        Headers: A modern sans-serif with strong weight (e.g., Montserrat, Poppins).
+
+        Body: A complementary sans-serif or clean serif (like Open Sans or Lora) for easy reading.
+
+    Section Dividers: Use subtle backgrounds or geometric shapes (a wave, diagonal slash) to differentiate sections.
+
+2. Header & Intro Section
+
+    Top Navigation Bar
+
+        A small, fixed (top) bar with your name or logo on the left and anchor links on the right (e.g., About, Experience, Data, Contact).
+
+        Transparent or slightly opaque background so it’s not overpowering.
+
+    Hero / Intro
+
+        Full-screen or large hero banner with your name and title (e.g., “Digital Project Manager & Business Analyst”).
+
+        A short tagline describing your strengths or approach (“Bridging business and tech with data-driven strategies”).
+
+        If you want a minimal illustration or abstract shape in the background, go for something that matches your color palette.
+
+Example visual cues for DALL·E prompt:
+
+    “A clean, modern one-page website hero section with soft neutral background, large bold text for the name, minimal geometric shapes in teal and coral, and a subtle sense of depth or layering.”
+
+3. About & Experience Sections
+About
+
+    Layout: A two-column approach:
+
+        Left column: A short personal bio (like 2–3 paragraphs).
+
+        Right column: Possibly a vertical timeline or a short list of key facts (skills, languages).
+
+    Imagery:
+
+        A friendly portrait or silhouette icon if you want.
+
+        Simple shapes or lines continuing the design language.
+
+Experience
+
+    Consider a horizontal timeline or a set of cards (boxes) for each job role:
+
+        Each card has the job title, company, dates, and bullet points about achievements.
+
+        Maintain consistent styling with subtle shadows or borders around each card.
+
+    Keep the color palette consistent: job title in teal, subheadings in your secondary accent, text in dark gray.
+
+4. Data Insights Section
+
+This is where you highlight stats from your timesheet data (pointage). For a one-page design, you can keep it fairly compact yet visually striking.
+
+    Title: “My Work & Commute Stats”
+
+    Short Explanation: “I track my hours, commutes, and telework vs. on-site to stay productive and healthy. Here’s a quick overview of 2025 so far.”
+
+    Charts (use 2–3 small, colorful charts with a consistent style):
+
+        Pie chart for On-site vs. Telework.
+
+        Pie chart for Train (t) vs. Bike (v) vs. other commute methods.
+
+        Bar/Line chart for Hours Worked vs. Hours Expected (cumulative or monthly).
+
+    Styling:
+
+        Keep the charts on a neutral background.
+
+        Use the same accent colors for each slice (e.g., teal for on-site, coral for telework, gold for train, etc.).
+
+        A minimal legend below or on the side to keep things uncluttered.
+
+5. Contact Section
+
+    Simple: A short sign-off: “Ready to connect? Drop me a line.”
+
+    Contact details:
+
+        Email link, LinkedIn link, etc.
+
+    Optional: A small contact form if you want messages directly from the site (using a service or a basic backend).
+
+Visual cues for DALL·E prompt, for example:
+
+    “A modern minimal contact form section with background shapes in teal and coral, minimal icons for email and LinkedIn, and a clean, open layout.”
+
+6. Icons & Imagery
+
+    Icons:
+
+        Use a free icon library like Heroicons, Feather Icons, or Font Awesome for small accent icons (e.g., LinkedIn, email, location).
+
+    Images:
+
+        Subtle, single-color or duotone images can maintain a minimal aesthetic.
+
+        Avoid large stock photos that clutter the design.
+
+    Graphical shapes:
+
+        Soft or geometric shapes can appear in corners or behind content blocks to add interest without distracting from text.
+
+7. Final Notes for the Mockup
+
+    Consistent Spacing: Use a grid or consistent padding/margin system so the page feels balanced.
+
+    Focus on Readability: Clear heading hierarchy (H1 for name, H2 for section titles, H3 or paragraph text for details).
+
+    Subtle Animations: If you want a modern feel, add small fade-ins or slide-ins for text sections or charts (tastefully, not overdone).
