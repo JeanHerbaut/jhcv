@@ -16,12 +16,6 @@ function App() {
       <div className="animated-bg-shape"></div>
       <div className="animated-bg-shape-reversed"></div>
 
-      <header className="hero-section">
-        <h1>Jean Dupont</h1>
-        <h2>Digital Project Manager &amp; Business Analyst</h2>
-        <p>Bridging business and tech with data-driven strategies.</p>
-      </header>
-
       <main className="content-wrapper">
         <AboutSection />
         <Experience />
