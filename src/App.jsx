@@ -1,12 +1,9 @@
 import React from 'react';
-import AboutSection from './components/AboutSection';
-import Experience from './components/Experience';
-import Stats from './components/Stats';
-import Header from './components/Header';
-import './styles.scss'
-import './components/AboutSection.scss';
-import './components/Experience.scss';
-import './components/Stats.scss';
+import AboutSection from './components/organisms/AboutSection';
+import Experience from './components/organisms/Experience';
+import Stats from './components/organisms/Stats';
+import Header from './components/organisms/Header';
+import './styles.scss';
 
 function App() {
   return (

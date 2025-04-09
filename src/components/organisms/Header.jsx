@@ -1,4 +1,5 @@
 import React from 'react';
+import HeaderMenu from '../molecules/HeaderMenu';
 import './Header.scss';
 
 function Header() {
@@ -9,12 +10,7 @@ function Header() {
         Jean Herbaut
       </div>
       <nav className="header__nav">
-        <ul className="header__menu">
-          <li><a href="#about">About</a></li>
-          <li><a href="#experience">Experience</a></li>
-          <li><a href="#stats">Data</a></li>
-          <li><a href="#contact">Contact</a></li>
-        </ul>
+        <HeaderMenu />
       </nav>
     </header>
   );

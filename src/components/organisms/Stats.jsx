@@ -9,7 +9,8 @@ import {
   LinearScale,
   BarElement,
 } from 'chart.js';
-import statsData from '../data/statsData.json';
+import ChartBox from '../molecules/ChartBox';
+import statsData from '../../data/statsData.json';
 import './Stats.scss';
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
@@ -60,35 +61,18 @@ function Stats() {
       <p>{summary.description}</p>
 
       <div className="charts-row">
-        <div className="chart-box">
-          <Pie data={onsiteVsTeleworkData} />
-          <p>
-            <strong>
-              On-site {(onsiteVsTelework.onsite * 100).toFixed(0)}% | Telework{' '}
-              {(onsiteVsTelework.telework * 100).toFixed(0)}%
-            </strong>
-          </p>
-        </div>
-
-        <div className="chart-box">
-          <Pie data={commuteData} />
-          <p>
-            <strong>
-              {commute
-                .map(
-                  (c) => `${c.method} ${(c.value * 100).toFixed(0)}%`
-                )
-                .join(' | ')}
-            </strong>
-          </p>
-        </div>
-
-        <div className="chart-box">
-          <Bar data={hoursOverTimeData} />
-          <p>
-            <strong>Hours Over Time (sample for {hoursOverTime.length} months)</strong>
-          </p>
-        </div>
+        <ChartBox
+          chart={<Pie data={onsiteVsTeleworkData} />}
+          description={`On-site ${(onsiteVsTelework.onsite * 100).toFixed(0)}% | Telework ${(onsiteVsTelework.telework * 100).toFixed(0)}%`}
+        />
+        <ChartBox
+          chart={<Pie data={commuteData} />}
+          description={commute.map((c) => `${c.method} ${(c.value * 100).toFixed(0)}%`).join(' | ')}
+        />
+        <ChartBox
+          chart={<Bar data={hoursOverTimeData} />}
+          description={`Hours Over Time (sample for ${hoursOverTime.length} months)`}
+        />
       </div>
     </section>
   );
