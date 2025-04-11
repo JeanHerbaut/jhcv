@@ -1,0 +1,103 @@
+@use './variables.scss' as *;
+
+/* Updated styles for Personal Mode */
+.personal-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  background: linear-gradient(135deg, $personal-primary-color, $personal-secondary-color);
+  padding: 2rem;
+  border-radius: 8px;
+  color: $bg-neutral;
+  background: linear-gradient(135deg, #fafafa 30%, #e6f7f7 100%);
+
+  h2 {
+    font-size: 2rem;
+    color: $bg-neutral;
+  }
+
+  p {
+    font-size: 1.2rem;
+    color: $bg-neutral;
+  }
+}
+
+.personal-passions {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+  gap: 1.5rem;
+  margin-bottom: 2rem;
+
+  .passion-item {
+    background: $personal-secondary-color;
+    padding: 1.5rem;
+    border-radius: 12px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    text-align: center;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    h3 {
+      margin-bottom: 0.5rem;
+      color: $personal-primary-color;
+      font-size: 1.5rem;
+    }
+
+    p {
+      color: $text-dark;
+      font-size: 1rem;
+    }
+  }
+}
+
+.personal-fun-facts {
+  margin-bottom: 2rem;
+  text-align: center;
+  background: $personal-primary-color;
+  color: $bg-neutral;
+  padding: 1.5rem;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+
+  .fun-fact {
+    font-size: 1.5rem;
+    font-weight: bold;
+    margin-bottom: 1rem;
+  }
+}
+
+.personal-image-gallery {
+  margin-bottom: 2rem;
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+  gap: 1rem;
+
+  .image-item {
+    background: #fff;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    overflow: hidden;
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+
+    &:hover {
+      transform: translateY(-5px);
+      box-shadow: 0 6px 12px rgba(0, 0, 0, 0.15);
+    }
+
+    img {
+      width: 100%;
+      height: auto;
+      display: block;
+    }
+
+    .caption {
+      padding: 0.5rem;
+      font-size: 1rem;
+      color: $text-dark;
+      text-align: center;
+    }
+  }
+}

@@ -6,7 +6,6 @@
   align-items: center;
   justify-content: center;
   padding: 1rem;
-  background-color: $primary-color;
   color: $bg-neutral;
   text-align: center;
 
@@ -20,10 +19,6 @@
     color: $bg-neutral;
     font-size: 2rem;
     transition: color 0.3s ease;
-
-    &:hover {
-      color: $accent-coral;
-    }
   }
 
   @media (max-width: $breakpoint-md) {
@@ -34,5 +29,12 @@
     .linkedin-link {
       font-size: 1.5rem;
     }
+  }
+
+  &.pro-mode {
+    background-color: #00a8a8; /* Couleur au choix pour le mode pro */
+  }
+  &.personal-mode {
+    background-color: #f08a5d; /* Couleur au choix pour le mode perso */
   }
 }

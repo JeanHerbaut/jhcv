@@ -38,3 +38,45 @@ body {
     padding: 0 0.5rem;
   }
 }
+
+.pro-mode {
+  color: $pro-secondary-color;
+}
+
+.personal-mode {
+  color: $personal-secondary-color;
+}
+
+.personal-intro {
+  text-align: center;
+  margin-bottom: 2rem;
+  background-color: peruvian-blue;
+  padding: 1rem;
+
+  h2 {
+    color: $personal-primary-color;
+  }
+}
+
+.personal-passions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 1rem;
+
+  .passion-item {
+    flex: 1 1 calc(33.333% - 1rem);
+    background-color: $personal-secondary-color;
+    padding: 1rem;
+    border-radius: 8px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+
+    h3 {
+      margin-bottom: 0.5rem;
+      color: $personal-primary-color;
+    }
+
+    p {
+      color: $text-dark;
+    }
+  }
+}

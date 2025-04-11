@@ -1,0 +1,55 @@
+{
+    "intro": {
+      "title": "Bienvenue dans mon univers personnel",
+      "description": "Au-delà des projets digitaux et du métier d’analyste, je suis un homme de terrain, curieux, engagé, sportif et profondément humain. Ce mode personnel te propose une plongée dans ce qui m’anime en dehors du travail."
+    },
+    "passions": [
+      {
+        "title": "Triathlon, cyclisme & sport",
+        "description": "Je consacre une grande partie de mon temps libre à l'endurance : natation, vélo, course à pied. Je vise actuellement une sèche intelligente pour une forme optimale en juillet 2025. Le vélo reste mon terrain d’expression préféré, notamment lors du Tour de France que je compte suivre dans les Alpes.",
+        "icon": "🚴"
+      },
+      {
+        "title": "Solidarité & engagement associatif",
+        "description": "Je suis pilote Cimgo pour l’association Différences Solidaires, qui propose des activités sportives aux personnes en situation de handicap. Donner autant que je reçois, sans limite ni mesure : c’est ma définition de l’équilibre.",
+        "icon": "🤝"
+      },
+      {
+        "title": "Voyages & découvertes culturelles",
+        "description": "Florence, Périgueux… J’aime voyager pour explorer l’art, l’histoire et la gastronomie. Marcher dans les rues anciennes, visiter les musées, goûter aux spécialités locales… C’est un art de vivre autant qu’un carburant personnel.",
+        "icon": "🌍"
+      },
+      {
+        "title": "Cuisine & vie saine",
+        "description": "Je cuisine chaque semaine mes repas à l’avance : plats de saison, soupes réconfortantes, légumes rôtis. Le batch cooking me permet d’être efficace, sain et gourmand. Petit plus : je maîtrise très bien les Tupperwares !",
+        "icon": "🍲"
+      },
+      {
+        "title": "Art & sensibilité",
+        "description": "J’aime l’art qui touche, le cinéma qui fait réfléchir, les livres qui bousculent. J’apprécie la douceur, l’esthétique et les valeurs humaines, et je me considère comme un privilégié qui reste lucide et engagé dans ce monde souvent injuste.",
+        "icon": "🎨"
+      }
+    ],
+    "funFacts": [
+      "Ancien joueur de football, devenu entraîneur jeunesse pour transmettre mes valeurs.",
+      "J’ai co-dirigé la com du Swiss Solar Boat, un projet étudiant de bateau solaire à l’EPFL.",
+      "J’adore les penne alla carbonara... mais je déteste le fenouil et les choux de Bruxelles.",
+      "Je bois ~2 litres d’eau par jour (même quand je ne fais pas de sport).",
+      "Je vis à Vevey, mais mon cœur est partagé entre les Alpes, la Toscane et les routes de campagne."
+    ],
+    "images": [
+      {
+        "url": "public/assets/avatar.png",
+        "caption": "Un moment simple, loin des écrans."
+      },
+      {
+        "url": "public/assets/cyclisme.jpg",
+        "caption": "Un col, un vélo, une liberté."
+      },
+      {
+        "url": "public/assets/florence.jpg",
+        "caption": "Souvenir de la Toscane."
+      }
+    ]
+  }
+  

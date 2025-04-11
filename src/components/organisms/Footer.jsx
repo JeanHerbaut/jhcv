@@ -2,9 +2,9 @@ import React from 'react';
 import '../../styles/Footer.scss';
 import { FaLinkedin } from 'react-icons/fa';
 
-function Footer() {
+function Footer({ mode }) {
   return (
-    <footer className="footer">
+    <footer className={`footer ${mode}-mode`}>
       <p className="footer-text">Let's connect !</p>
       <a
         href="https://www.linkedin.com/in/jean-herbaut"

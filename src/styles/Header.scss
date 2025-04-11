@@ -1,0 +1,33 @@
+.header {
+  /* Exemples de style : fond, marges... */
+  background-color: #f9f9f9;
+  padding: 1rem;
+
+  &.pro-mode {
+    background-color: #00a8a8; /* Couleur au choix pour le mode pro */
+  }
+  &.personal-mode {
+    background-color: #f08a5d; /* Couleur au choix pour le mode perso */
+  }
+
+  .header-content {
+    /* On passe en flex pour aligner le titre à gauche et la switch-container à droite */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+    h1 {
+      margin: 0; /* Retire les marges par défaut du h1 */
+      color: #fff; /* Suppose qu'on veut du blanc si le fond est coloré */
+      font-size: 1.5rem;
+    }
+
+    .switch-container {
+      /* Pas d'absolu ou float. Le flex fait déjà le job pour l'alignement à droite. */
+      display: flex;
+      align-items: center; 
+      /* Ajuste si besoin un margin, ex. margin-left: auto; 
+         Mais 'justify-content: space-between' suffit déjà. */
+    }
+  }
+}

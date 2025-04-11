@@ -1,0 +1,108 @@
+@use './variables.scss' as *;
+
+  .knobs,
+  .layer {
+    position: absolute;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+  }
+  
+  .button {
+    top: 50%;
+    width: 74px;
+    height: 36px;
+    margin: -20px auto 0 auto;
+    overflow: hidden;
+    position: relative;
+  }
+  
+  .button.r,
+  .button.r .layer {
+    border-radius: 100px;
+  }
+  
+  .checkbox {
+    position: 
+    absolute;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+    opacity: 0;
+    cursor: pointer;
+    z-index: 3;
+  }
+  
+  .knobs {
+    z-index: 2;
+  }
+  
+  
+  /* === Button 5 only === */
+  #button-5 {
+    perspective: 60px;
+    overflow: visible;
+  }
+  
+  #button-5 .knobs:before,
+  #button-5 .knobs span {
+    content: "";
+    position: absolute;
+    top: 4px;
+    left: 4px;
+    width: 20px;
+    height: 10px;
+    color: #fff;
+    font-size: 10px;
+    font-weight: bold;
+    line-height: 1;
+    padding: 9px 4px;
+    border-radius: 50%;
+    transition: 0.3s cubic-bezier(0.18, 0.89, 0.35, 1.15) all;
+  }
+  
+  #button-5 .knobs:before {
+    background-color: $personal-primary-color; /* Use project variable for pro mode */
+  }
+  
+  #button-5 .knobs span:before {
+    content: "YES";
+  }
+  
+  #button-5 .knobs:before,
+  #button-5 .layer {
+    transform: rotateY(0);
+    transform-origin: center;
+  }
+  
+  #button-5 .checkbox:checked + .knobs:before,
+  #button-5 .checkbox:checked + .knobs span {
+    left: 42px;
+  }
+  
+  #button-5 .checkbox:checked + .knobs:before {
+    background-color: $primary-color; /* Use project variable for personal mode */
+    transform: rotateY(180deg);
+  }
+  
+  #button-5 .checkbox:checked + .knobs span:before {
+    content: "NO";
+    left: 42px;
+  }
+  
+  #button-5 .layer {
+    background-color: lighten($personal-primary-color, 40%); /* Lightened pro color */
+  }
+  
+  #button-5 .checkbox:checked ~ .layer {
+    background-color: lighten($personal-primary-color, 40%); /* Lightened personal color */
+    transform: rotateY(-180deg);
+  }
+  
+  #button-5 .knobs,
+  #button-5 .knobs:before,
+  #button-5 .layer {
+    transition: 0.3s ease all;
+  }
