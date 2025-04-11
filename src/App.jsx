@@ -1,23 +1,20 @@
 import React from 'react';
 import AboutSection from './components/organisms/AboutSection';
-import Experience from './components/organisms/Experience';
+import ExperienceCarousel from './components/organisms/ExperienceCarousel';
 import Stats from './components/organisms/Stats';
-import Header from './components/organisms/Header';
-import './styles.scss';
+import Footer from './components/organisms/Footer';
+import cvData from './data/cvData.json';
+import './styles/styles.scss';
 
 function App() {
   return (
-    <div className="main-container">
-      <Header />
-      {/* Animated BG shape */}
-      <div className="animated-bg-shape"></div>
-      <div className="animated-bg-shape-reversed"></div>
-
+    <div className="main-container container">
       <main className="content-wrapper">
         <AboutSection />
-        <Experience />
+        <ExperienceCarousel experiences={cvData.professionalExperience} />
         <Stats />
       </main>
+      <Footer />
     </div>
   );
 }

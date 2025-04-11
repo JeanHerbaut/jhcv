@@ -1,12 +1,40 @@
+@use './variables.scss' as *;
+
+/* Global Reset */
 * {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
 }
 
+/* Global Typography */
 body {
-  font-family: 'Open Sans', sans-serif;
-  background-color: #fff;
-  color: #333;
+  font-family: $font-family;
+  background-color: $background-color;
+  color: $text-color;
   line-height: 1.6;
+}
+
+/* Utility Classes */
+/* Global container for consistent layout */
+.container {
+  width: 90%;
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 0 1rem;
+
+  @media (min-width: $breakpoint-lg) {
+    width: 80%;
+  }
+}
+
+.text-center {
+  text-align: center;
+}
+
+/* Responsive Breakpoints */
+@media (max-width: $breakpoint-md) {
+  .container {
+    padding: 0 0.5rem;
+  }
 }

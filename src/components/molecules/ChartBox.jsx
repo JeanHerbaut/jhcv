@@ -1,5 +1,4 @@
 import React from 'react';
-import './ChartBox.scss';
 
 function ChartBox({ chart, description }) {
   return (

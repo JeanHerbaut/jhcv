@@ -1,0 +1,217 @@
+{
+    "name": "JEAN HERBAUT",
+    "title": "Project Manager – Business Analyst",
+    "contact": {
+      "phone": "+41 79 876 19 97",
+      "email": "Jean.herbaut@outlook.fr",
+      "location": "Vevey, Switzerland"
+    },
+    "profile": "Experienced Project Manager with a strong background in project management and a passion for sports. Currently working as a Business Analyst in e-Government for the State of Vaud. Proven track record in managing complex projects in international settings, with excellent communication skills and the ability to thrive in multicultural and multidisciplinary team environments. Bilingual in English and French.",
+    "languages": [
+      {
+        "language": "French",
+        "proficiency": "Native Speaker (C2)"
+      },
+      {
+        "language": "English",
+        "proficiency": "Professional Proficiency (C1)"
+      },
+      {
+        "language": "Italian",
+        "proficiency": "Fluent (B2+)"
+      },
+      {
+        "language": "German",
+        "proficiency": "Basic Skills (B1)"
+      }
+    ],
+    "skills": {
+      "projectManagement": [
+        "Planning and coordination of complex projects",
+        "Risk and resource management",
+        "Business plan development and budget tracking"
+      ],
+      "businessAnalysis": [
+        "Requirements gathering and specification definition",
+        "Solution development tailored to client needs",
+        "Marketing process automation"
+      ],
+      "technologies": [
+        "Microsoft Tools: Word, Excel, Outlook, PowerPoint",
+        "Project Management Tools: Smartsheet",
+        "Web Development: JS, MySQL, PHP, HTML5",
+        "CMS: WordPress, Drupal, TYPO3, Magento"
+      ]
+    },
+    "certifications": [
+      {
+        "name": "Professional Scrum Master I (PSM I)",
+        "issuer": "Scrum.org"
+      }
+    ],
+    "education": [
+      {
+        "yearOrRange": "2018 – 2021",
+        "degree": "Bachelor of Science in Media Engineering",
+        "institution": "HEIG-VD",
+        "notes": "Award for excellence for the bachelor's thesis 'Conceptualization and development of an MVP for a digital platform for the Sino-Swiss Collaboration Center'"
+      },
+      {
+        "yearOrRange": "2021",
+        "program": "Erasmus and Major in E-Business and Digital Marketing",
+        "institution": "Pôle Universitaire Léonard de Vinci"
+      }
+    ],
+  
+    "professionalExperience": [
+      {
+        "dates": "March 2024 – Present",
+        "role": "Business Analyst",
+        "organization": "Etat de Vaud – DGNSI, Switzerland",
+        "shortDescription": "Driving e-Government solutions with precise specifications and cost estimations.",
+        "responsibilities": [
+          "Analyzed requirements and managed projects for e-Government solutions",
+          "Wrote technical and functional specifications",
+          "Performed cost estimation"
+        ],
+        "iconEmoji": "💼",
+        "skills": [
+          { "label": "Analysis", "color": "#F08A5D" },
+          { "label": "e-Government", "color": "#FBD148" },
+          { "label": "Collaboration", "color": "#00A8A8" }
+        ]
+      },
+      {
+        "dates": "August 2021 – Present",
+        "role": "Digital Project Manager",
+        "organization": "WIDE AGENCY – Geneva, Switzerland",
+        "shortDescription": "Leading digital projects for luxury brands and optimizing marketing strategies.",
+        "responsibilities": [
+          "Managed digital projects for luxury brands",
+          "Coordinated digital marketing campaigns in banking, university, and electronic signature sectors",
+          "Optimized SEO for university clients and maintained various web technologies"
+        ],
+        "iconEmoji": "🧠",
+        "skills": [
+          { "label": "Project Management", "color": "#FFA500" },
+          { "label": "Marketing Automation", "color": "#FF7F50" },
+          { "label": "SEO", "color": "#00A8A8" }
+        ]
+      },
+      {
+        "dates": "August 2018 – July 2019",
+        "role": "Account Executive",
+        "organization": "Agence NOW* – Epalinges, Switzerland",
+        "shortDescription": "Developed impactful communication campaigns and ensured project success.",
+        "responsibilities": [
+          "Developed communication concepts",
+          "Managed campaigns autonomously",
+          "Interacted with suppliers and partners"
+        ],
+        "iconEmoji": "⚙️",
+        "skills": [
+          { "label": "Communication", "color": "#E67E22" },
+          { "label": "Event Management", "color": "#FFB347" }
+        ]
+      },
+      {
+        "dates": "August 2016 – August 2017",
+        "role": "Receptionist",
+        "organization": "EPFL – MEDIACOM, Switzerland",
+        "shortDescription": "Managed keys, lost items, provided visitor info, and organized campus events.",
+        "responsibilities": [
+          "Managed keys and lost items",
+          "Provided visitor information",
+          "Organized campus events"
+        ],
+        "iconEmoji": "🛎️",
+        "skills": [
+          { "label": "Customer Service", "color": "#FFD700" },
+          { "label": "Event Coordination", "color": "#87CEFA" },
+          { "label": "Communication", "color": "#00A8A8" }
+        ]
+      }
+    ],
+  
+    "personalProjects": [
+      {
+        "dates": "January 2024 – Today",
+        "projectName": "Run2Aid",
+        "role": "Webmaster",
+        "details": [
+          "Created and implemented the WordPress website",
+          "Helped the event double its donation gains"
+        ]
+      },
+      {
+        "dates": "September 2022 – Today",
+        "projectName": "Association Différences Solidaires",
+        "role": "Volunteer",
+        "details": [
+          "Organized events for adaptive sports",
+          "Holder of a Cimgo pilot license"
+        ]
+      },
+      {
+        "dates": "May 2021 – August 2021",
+        "projectName": "Nihub Innovation Center & Sino-Swiss Learning Center",
+        "role": "Internship (Home office & Yverdon, Switzerland)",
+        "details": [
+          "Conducted remote field study and business analysis for a startup incubator in Hangzhou",
+          "Conceptualized and developed an MVP for the Sino-Swiss Learning Center (collaboration between Nihub and HEIG-VD)"
+        ]
+      },
+      {
+        "dates": "July 2019 – August 2020",
+        "projectName": "Alimentarium",
+        "role": "Mediator – Vevey, Switzerland",
+        "details": [
+          "Supervised visitors and organized events at the museum"
+        ]
+      },
+      {
+        "dates": "February 2019 – August 2020",
+        "projectName": "Swiss Solar Boat",
+        "role": "Head of communication & committee member – EPFL, Switzerland",
+        "details": [
+          "Led the communication team for external communication, digital strategy, and events",
+          "Co-authored the association’s website (swisssolarboat.ch)"
+        ]
+      },
+      {
+        "dates": "February 2020 – May 2020",
+        "projectName": "HEIG-VD – Academic Assistant",
+        "details": [
+          "Presented study programs in high schools",
+          "Helped organize the Sino-Swiss Summer University Edition 2020"
+        ]
+      },
+      {
+        "dates": "July 2019 – July 2019",
+        "projectName": "HEIG-VD – SSSU ALUMNI – Sino-Swiss Summer Universities",
+        "details": [
+          "Participated in the International Management Program (SSSU) at HEIG-VD",
+          "Collaborated with students from the University of Shanghai",
+          "Presented to Swiss/Chinese entrepreneurs and multinational companies (Bobst, Hengtong)"
+        ]
+      },
+      {
+        "dates": "January 2016 – October 2019",
+        "projectName": "Stade Lausanne Ouchy – Football Trainer",
+        "role": "Coach",
+        "details": [
+          "Played 5 years in the youth teams of Lausanne Sport and Team Vaud (M13 to M17)",
+          "Led training sessions for the youth academy (120 children) and a Junior E team (10-11 years old)",
+          "Managed communication with parents, organized matches and tournaments"
+        ]
+      }
+    ],
+    "interests": [
+      "Sport (cycling, CrossFit, rugby, football, hiking)",
+      "Literature",
+      "Art",
+      "Cinema",
+      "Travel"
+    ]
+  }
+  

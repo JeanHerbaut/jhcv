@@ -11,7 +11,7 @@ import {
 } from 'chart.js';
 import ChartBox from '../molecules/ChartBox';
 import statsData from '../../data/statsData.json';
-import './Stats.scss';
+import '../../styles/Stats.scss';
 
 ChartJS.register(ArcElement, Tooltip, Legend, CategoryScale, LinearScale, BarElement);
 

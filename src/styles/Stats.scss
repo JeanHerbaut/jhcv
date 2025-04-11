@@ -1,0 +1,87 @@
+@use './variables.scss' as *;
+
+.stats {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 2rem;
+  padding: 2rem;
+
+  &__title {
+    font-family: $font-family;
+    font-size: 2rem;
+    font-weight: bold;
+    color: $text-dark;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  &__chart {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: $background-color;
+    border: 1px solid $accent-teal;
+    border-radius: 8px;
+    padding: 1.5rem;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+
+    &-title {
+      font-family: $font-family;
+      font-size: 1.2rem;
+      font-weight: 600;
+      color: $text-dark;
+      margin-bottom: 1rem;
+    }
+
+    &-description {
+      font-family: $font-family;
+      font-size: 1rem;
+      color: $text-color;
+      text-align: center;
+    }
+  }
+
+  @media (max-width: $breakpoint-md) {
+    padding: 1rem;
+    gap: 1rem;
+
+    &__title {
+      font-size: 1.5rem;
+    }
+
+    &__chart {
+      padding: 1rem;
+    }
+  }
+}
+
+.stats-section {
+  padding: 2rem;
+  background: linear-gradient(135deg, #fafafa 30%, #e6f7f7 100%);
+
+  h3 {
+    font-family: $font-family;
+    font-size: 2rem;
+    color: $text-dark;
+    text-align: center;
+    margin-bottom: 1rem;
+  }
+
+  p {
+    font-family: $font-family;
+    font-size: 1rem;
+    color: $text-color;
+    text-align: center;
+    margin-bottom: 2rem;
+  }
+
+  .charts-row {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+    gap: 2rem;
+
+    @media (max-width: $breakpoint-md) {
+      grid-template-columns: 1fr;
+    }
+  }
+}
